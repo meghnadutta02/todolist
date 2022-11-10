@@ -35,23 +35,23 @@ app.get("/", function (req, res) {
     console.log(err);
     else
     {
-      if(results.length===0)
-      {
-        Item.insertMany([one, two], function (err) {
-          if (err) console.log(err);
-          else console.log("Success!");
-        });
-        res.redirect("/");
-      }
-      else
-      {
+      // if(results.length===0)
+      // {
+      //   Item.insertMany([one, two], function (err) {
+      //     if (err) console.log(err);
+      //     else console.log("Success!");
+      //   });
+      //   res.redirect("/");
+      // }
+      //else
+      //{
       
       for(var i=0;i<results.length;i++)
       {
         console.log(results[i].name);
       }
       res.render("list", { listTitle: day, newListItems:results });
-    }
+    //}
   }
   })
   
