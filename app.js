@@ -78,6 +78,10 @@ app.post("/", function (req, res) {
     })
   }
 });
+app.post("/custom",(req,res)=>{
+ var custom=req.body.custom;
+ res.redirect("/"+custom);
+});
 app.post("/delete",(req,res)=>{
   var hide=req.body.hide;
   var del=req.body.checked;

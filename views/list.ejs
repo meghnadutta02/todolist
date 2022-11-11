@@ -19,6 +19,16 @@
         <input type="text" name="newItem" placeholder="New Item" autocomplete="off">
         <button type="submit" name="btnList" value="<%=listTitle%>">+</button>
       </form>
+      
   </div>
 
+  <div class="h2"><h2>Custom list</h2></div>
+  <div class="mid">
+  <form action="/custom" method="post">
+     <input type="text" class="no" name="custom" placeholder="Enter custom list title">
+    <button type="submit">✔</button>
+    
+</form>
+</div>
+<div class="home"><h3>To go to Home page,<a href="/">Click here</h3></a></div>
 <%- include("footer") -%>

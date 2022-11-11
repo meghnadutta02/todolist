@@ -5,7 +5,7 @@ html {
   font-family: 'helvetica neue';
 }
 
-h1 {
+h1 ,h2{
   color: #fff;
   padding: 10px;
 }
@@ -18,7 +18,7 @@ h1 {
   box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
 }
 
-#heading {
+#heading ,h2{
   background-color: #A683E3;
   text-align: center;
 }
@@ -88,8 +88,44 @@ input[type="text"]:focus {
   color: grey;
   opacity: 1;
 }
+.mid{
+  max-width: 400px;
+  margin: auto;
+  margin-top: 45px;
+  text-align: center;
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+h2{
+  margin: 0%;
+  font-size:2em ;
+}
+.h2
+{
+  max-width: 400px;
+  margin: auto;
+  text-align: center;
+  border:#A683E3 solid 3px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+.no{
+  margin-top: 5px;
+  width: 100%;
 
+}
+.home{
+  max-width: 400px;
+  margin: 15px auto;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.678);
+}
+a{
+  text-decoration: none;
+}
 footer {
+  margin-top: 25px;;
   color: white;
   color: rgba(0, 0, 0, 0.5);
   text-align: center;
