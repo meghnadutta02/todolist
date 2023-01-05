@@ -5,7 +5,7 @@ const bodyParser = require("body-parser");
 const date = require(__dirname + "/date.js");
 const mongoose = require("mongoose");
 const _=require('lodash');
-mongoose.connect("mongodb+srv://admin-meghna:iPfW8bn8MGFeT4v5@cluster0.hgmrodx.mongodb.net/todolistDB");
+mongoose.connect("mongodb+srv://admin-meghna:iPfW8bn8MGFeT4v5@meghna.ak9cczv.mongodb.net/todolistDB");
 const app = express();
 
 app.set("view engine", "ejs");
